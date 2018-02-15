@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var fs = require('fs');
 var request = require('request');
 var Logger = require(__dirname + '/../logger');
@@ -69,6 +70,10 @@ var handlePayload = function(payload) {
 	}
 };
 
+=======
+var Loggger = require(__dirname + '/../logger');
+
+>>>>>>> parent of ece355d... initial payload handler function
 module.exports = function(req, res) {
 	if(req.query.source) {
 		var payload = {};
